@@ -1,13 +1,13 @@
 @font-face {
   font-family: "OpenSans";
-  src: url("../fonts/OpenSans-Regular.woff");
+  src: url(../fonts/OpenSans-Regular.woff);
   font-weight: normal;
   font-style: normal;
 }
 
 @font-face {
   font-family: "OpenSans";
-  src: url("../fonts/OpenSans-Bold.woff");
+  src: url(../fonts/OpenSans-Bold.woff);
   font-weight: bold;
   font-style: normal;
 }
@@ -46,7 +46,7 @@ ul {
   position: relative;
   z-index: 0;
 
-  background-image: url("../images/banner-bg.jpg");
+  background-image: url(../images/banner-bg.jpg);
   background-color: #888888;
   background-repeat: no-repeat;
   background-position: center center;
@@ -56,13 +56,13 @@ ul {
 
 @media (max-width: 1200px) {
   .header {
-    background-image: url("../images/banner-bg-tablet.jpg");
+    background-image: url(../images/banner-bg-tablet.jpg);
   }
 }
 
 @media (max-width: 640px) {
   .header {
-    background-image: url("../images/banner-mobile.jpg");
+    background-image: url(../images/banner-mobile.jpg);
   }
 }
 
@@ -1400,7 +1400,7 @@ p+p {
   -webkit-appearance: none;
   -moz-appearance: none;
   background-color: #f4f7f6;
-  background-image: url("../svg/form-arrows.svg");
+  background-image: url(../svg/form-arrows.svg);
   background-repeat: no-repeat;
   background-position: right 14px center;
   background-size: 10px;
@@ -1449,14 +1449,14 @@ p+p {
   margin-top: 2px;
   margin-right: 4px;
 
-  background-image: url("../svg/form-empty-circle.svg");
+  background-image: url(../svg/form-empty-circle.svg);
   background-repeat: no-repeat;
   background-position: center center;
   background-size: 18px;
 }
 
 .radio-button:checked::after {
-  background-image: url("../svg/form-circle.svg");
+  background-image: url(../svg/form-circle.svg);
 }
 
 @media (max-width: 1200px) {
@@ -1531,7 +1531,7 @@ p+p {
 
   width: 18px;
   height: 18px;
-  background-image: url("../svg/form-x.svg");
+  background-image: url(../svg/form-x.svg);
 }
 
 @media (max-width: 1200px) {
