@@ -29,8 +29,8 @@
   </header>
   <aside class="trends">
     <div class="trends__content">
-      <h2 class="trends-title">Сейчас в тренде</h2>
       <section class="trend-posts">
+        <h2 class="trends-title">Сейчас в тренде</h2>
         <article class="trend-post">
           <img src="images/trend1.jpg" alt="post-image" class="trend-post-image">
           <div class="trend-post__content">
@@ -237,7 +237,7 @@
           </article>
         </section>
         <form action="/search" method="get" class="sidebar__search">
-          <input type="search" placeholder="Найти..." class="search-form">
+          <input type="search" placeholder="Найти..." id="search-form">
           <button type="submit" class="search-button">
             <img src="svg/search.svg" alt="search-icon"
               class="search-icon">
@@ -246,7 +246,7 @@
         <section class="sidebar__mailing">
           <h4 class="sidebar__mailing-title">Рассылка</h4>
           <form action="/subscribe" method="post" class="sidebar__mailing-form">
-            <input type="email" placeholder="Ваш email адрес" class="email-form">
+            <input type="email" placeholder="Ваш email адрес" id="email-form">
             <button type="submit" class="mailing-button">
               <span class="button-text">Подписаться</span>
             </button>
@@ -293,8 +293,8 @@
   </div>
   <aside class="products">
     <div class="products__content">
-      <h5 class="products-title">Наши изделия</h5>
       <section class="products-container">
+        <h5 class="products-title">Наши изделия</h5>
         <article class="product">
           <picture>
             <source srcset="images/shop-item-mobile1.jpg" media="(max-width: 640px)"/>
